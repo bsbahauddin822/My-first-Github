@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration</title>
+  </head>
+  <body>
+    <h1>Event Registration Form</h1>
+    <form>
+      <strong> 1. What is about the event?</strong> <br />
+      <input
+        type="textarea"
+        placeholder="Write short description about the event."
+      />
+      <br />
+
+      <strong> 2. What is your Full Name?</strong> <br />
+      <input type="text" placeholder="Full Name" /> <br />
+
+      <strong> 3. What is your Email?</strong> <br />
+      <input type="email" placeholder="your email address" /> <br />
+      <strong> 4. What is your phone Number?</strong> <br />
+      <input type="text" placeholder="Your Phone Number" /> <br />
+      <strong> 5. How did you hear about the event?</strong> <br />
+      <select>
+        <option value="Friend">Friend</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Advertisement">Advertisement</option>
+        <option value="Ofline Campaign">Offline Campaign</option>
+      </select>
+      <br />
+      <strong> 6. T-shirt size</strong> <br />
+      <input type="radio" id="smal" name="size" value="S" />
+      <label for small> S </label>
+      <input type="radio" id="medium" name="size" value="M" />
+      <label for medium>M</label>
+      <input type="radio" id="large" name="size" value="L" />
+      <label for large>L</label>
+      <input type="radio" id="Extra-Large" name="size" value="XL" />
+      <label for Extra Large> XL</label> <br />
+      <strong> 7. Dietary Preferences (Select all that apply) </strong> <br />
+      <input type="checkbox" name="food" value="Vegetarian" />
+      <label for Vegetarian> Vegetarian</label>
+      <input type="checkbox" name="food" value="vegan" />
+      <label for Vegan> Vegan</label>
+      <input type="checkbox" name="food" value="Non-Vegetarian" />
+      <label for Non-Vegetarian>Non-Vegetarian</label>
+      <input type="checkbox" name="food" value="No Preference" />
+      <label for No Preference> No Preference</label><br />
+
+      <strong> 8. Anything else? (Optional)</strong> <br />
+      <input
+        type="textarea"
+        placeholder="Write anything that you want about event."
+      />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <small> Please make sure all required fields are filled.</small>
+  </body>
+</html>
